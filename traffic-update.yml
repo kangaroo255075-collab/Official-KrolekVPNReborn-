@@ -1,0 +1,57 @@
+name: Traffic Auto Increment
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-traffic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update traffic in subscription file
+        env:
+          GH_TOKEN: ${{ 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 }}
+        run: |
+          FILE="Krolek.txt"
+
+          if [ ! -f "$FILE" ]; then
+            echo "❌ Файл $FILE не найден!"
+            exit 1
+          fi
+
+          update_traffic() {
+            local type="$1"
+            local current=$(grep -oP '(?<=upload=)[0-9]+' "$FILE" | head -1)
+            if [ -z "$current" ]; then
+              current=0
+            fi
+            local add=0
+
+            if [[ "$type" == "LTE" ]]; then
+              add=$(( 1500000000 ))
+            else
+              add=$(( 600000000 ))
+            fi
+
+            local new=$(( current + add ))
+            sed -i "s/upload=[0-9]*/upload=$new/" "$FILE"
+            echo "✅ $type: +$add байт (upload: $current → $new)"
+          }
+
+          if grep -q "#type: LTE" "$FILE"; then
+            update_traffic "LTE"
+          elif grep -q "#type: VPN" "$FILE"; then
+            update_traffic "VPN"
+          else
+            echo "⚠️ Тип конфига не определён. Добавь в файл $FILE строку #type: LTE или #type: VPN"
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "Автоматическое обновление трафика [skip ci]" || echo "Нет изменений"
+          git push
