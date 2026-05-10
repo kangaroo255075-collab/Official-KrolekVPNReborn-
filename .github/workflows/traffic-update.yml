@@ -14,7 +14,8 @@ jobs:
 
       - name: Update traffic in subscription file
         env:
-          GH_TOKEN: ${{ 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 }}
+          env:
+  GH_TOKEN: ${{ secrets.TOKEN_FOR_TRAFFIC }}
         run: |
           FILE="Krolek.txt"
 
