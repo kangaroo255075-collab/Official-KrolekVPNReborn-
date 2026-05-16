@@ -2,7 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://t.me/Kr0l3k
 #profile-web-page-url: https://t.me/KrolekVPNReborn 
-#announce: KrolekVPNReborn — спаситель мобильного интернета🌐     LTE - обход глушилок VPN – обход блокировки  YouTube - ютуб без рекламы
+#announce: KrolekVPNReborn — спаситель мобильного интернета🌐
+LTE - обход глушилок VPN – обход блокировки 
 #subscription-userinfo: upload=0; download=0; total=53687091200; expire=2383718400
 #type: LTE
 #type: VPN
@@ -14,7 +15,6 @@ vless://eab058c7-8c14-4494-8d5d-76a6fbeb473f@de.tlsov.pro:443?security=reality&e
 vless://eab058c7-8c14-4494-8d5d-76a6fbeb473f@nl.tlsov.pro:443?security=reality&encryption=none&echfq=none&pbk=K42aHYxM9Lt1Tl4vF-OniHV5pNju-wnB_opA-hVihgs&headerType=none&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=1000#%5BKrolekVPNReborn%5D+Netherlands+%F0%9F%87%B3%F0%9F%87%B1+%7C+VPN
 
 
-vless://25f1947f-63a8-2040-8f3b-b101eed550e7@146.185.241.40:443?path=%2Fupload%2Fsession&security=tls&encryption=none&echfq=none&fp=chrome&allowinsecure=0&type=ws&sni=w2ws.listwhite.cc#%5BKrolekVPNReborn%5D+Serbia+%F0%9F%87%B7%F0%9F%87%B8+%7C+LTE
-vless://25f1947f-63a8-2040-8f3b-b101eed550e7@146.185.241.40:443?path=%2Fupload%2Fsession&security=tls&encryption=none&echfq=none&host=s2.ws.listwhite.cc&fp=chrome&allowinsecure=0&type=ws&sni=w2ws.listwhite.cc#%5BKrolekVPNReborn%5D+Croatia+%F0%9F%87%AD%F0%9F%87%B7+%7C+LTE
-vless://25f1947f-63a8-2040-8f3b-b101eed550e7@146.185.241.45:443?path=%2Fupload%2Fsession&security=tls&encryption=none&echfq=none&fp=chrome&allowinsecure=0&type=ws&sni=w1ws.listwhite.cc#%5BKrolekVPNReborn%5D+Slovakia+%F0%9F%87%B8%F0%9F%87%B0+%7C+LTE
-vless://dcfc3b18-febc-4957-bacf-d6c854de89a8@78.159.246.191:5443?security=reality&encryption=none&echfq=none&pbk=LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru#%5BKrolekVPNReborn%5D+Czech+%F0%9F%87%A8%F0%9F%87%BF+%7C+LTE
+vless://dd97b494-de65-Fade-8b30-919e46268920@195.209.82.149:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&echfq=none&host=s28233.cdn.ngenix.net&fp=qq&allowinsecure=0&type=ws&sni=s28233.cdn.ngenix.net#%5BKrolekVPNReborn%5D+Serbia+%F0%9F%87%B7%F0%9F%87%B8+%7C+LTE
+vless://45e55198-a5ad-4f19-bb39-236822141d25@188.72.103.3:443?path=%2Fstream%2Fupdates%2Fb66b78d7%2F019dfd7f-0777-6283-7287-911777c3720f4&security=tls&encryption=none&echfq=none&host=cdn.lovecrafty.link&allowinsecure=0&type=ws&sni=cdn.tracker.yandex.net#%5BKrolekVPNReborn%5D+Croatia+%F0%9F%87%AD%F0%9F%87%B7+%7C+LTE
+vless://45e55198-a5ad-4f19-bb39-236822141d25@188.72.103.3:443?path=%2Fstream%2Fupdates%2Fb66b78d7%2F019dfd7f-0777-6283-7287-911777c3720f4&security=tls&encryption=none&echfq=none&host=cdn.lovecrafty.link&fp=chrome&allowinsecure=0&type=ws&sni=cdn.tracker.yandex.net#%5BKrolekVPNReborn%5D+Slovakia+%F0%9F%87%B8%F0%9F%87%B0+%7C+LTE
