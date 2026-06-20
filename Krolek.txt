@@ -12,4 +12,4 @@ vless://622ecb27-f3c0-1f40-b463-7ce28eed844f@0.00.00.0:443?security=reality&encr
 
 vless://f49b264d-3610-4f09-bb3b-3838a8022569@78.159.250.173:8090?mode=auto&path=%2F&security=reality&encryption=none&echfq=none&pbk=lCwVDvngXM3kLz86XpOJmZ46coOVaV7Kl7vB7cCPeQI&host=iv.kommersant.ru&fp=qq&allowinsecure=0&type=xhttp&sni=iv.kommersant.ru&sid=a20d3ed244c76426#%5BKrolekVPNReborn%5D+Europe+%F0%9F%87%AA%F0%9F%87%BA+%7C+LTE
 
-vless://b1b85897-a34c-4ba5-8d0f-4c627913b7a7@77.91.66.178:443?type=tcp&security=reality&pbk=V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc&fp=firefox&sni=ger.hatvpn.org&sid=76132b3b39704c44&flow=xtls-rprx-vision#[KrolekVPNReborn]%20Germany%20🇩🇪%20|%20VPN
+vless://8efb67de-2d07-4f2d-a73e-b3d0837a4ed0@84.32.100.153:443?mode=auto&path=%2Fapi%2Fv2%2Fsync&security=reality&encryption=none&echfq=none&pbk=3Jd6aGidCvif3QMF5HczIiYvLGAD4t7mUVignyztHRY&fp=firefox&allowinsecure=0&type=xhttp&sni=www.tradingview.com&sid=e5d2a8f1c6b34709#%5BKrolekVPNReborn%5D+Germany+%F0%9F%87%A9%F0%9F%87%AA+%7C+VPN
